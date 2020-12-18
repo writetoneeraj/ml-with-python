@@ -1,0 +1,13 @@
+Note: Setup environment assume that python and anaconda are installed on the system
+1. Copy environment.yml to local machine.
+2. Go to the folder where environment.yml is copied
+3. Run 
+	"conda env create --file=environment.yml"
+4. Check newly created environment by using command
+	"conda env list"
+5. Activate newly created environment
+	"conda activate ml-with-python"
+6. Make available this environment in jupyter run command
+	"ipython kernel install --user --name="ml-with-python""
+To delete the environment use command
+	"conda env remove -n ml-with-python"

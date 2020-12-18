@@ -1,0 +1,15 @@
+name: ml-with-python
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - numpy
+  - python=3.8
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - jupyter
+  - ipykernel
+  - pip:
+    
